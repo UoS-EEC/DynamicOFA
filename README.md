@@ -3,7 +3,7 @@ This code implementation is for paper 'Dynamic-OFA: Runtime DNN Architecture Swi
 
 > [**Dynamic-OFA: Runtime DNN Architecture Switching for Performance Scaling on Heterogeneous Embedded Platforms**](https://arxiv.org/abs/2105.03596),  
 > Wei Lou*, Lei Xun*, Amin Sabet, Jia Bi, Jonathon Hare, Geoff V. Merrett   
-> In: Embedded Computer vision (ECV) Workshop, Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR) , 2021  
+> In Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2021  
 > *arXiv preprint ([arXiv 2105.03596](https://arxiv.org/abs/2105.03596))*   
 
 ![Fig2](Fig2.png)
