@@ -36,7 +36,8 @@ if cuda_available:
 else:
     print('Using CPU.')
 
-imagenet_data_path = '/home/~/data/testing' ## change to your data path
+imagenet_data_path = os.path.join(os.path.abspath(os.getcwd()), 'data') #You need creat a folder named data in DynamicOFA-master folder
+#'/home/~/data/testing' ## change to your data path
 #imagenet_data_path = '/home/lewislou/data/imagenet'
 def build_val_transform(size):
     return transforms.Compose([
@@ -85,7 +86,7 @@ for result in mylist:
         print('top1',top1)
         print('init_latency and inference latency',init_latency,sum(latency)/len(latency))
 
-        print('NUmber',j)
+        print('Number',j)
         with open('flop_acc'+str(j)+'.pickle','wb') as file:
             pickle.dump(
             {
