@@ -53,7 +53,7 @@ class EvolutionFinder:
 	valid_constraint_range = {
 		'flops': [150, 600],
 		'note10': [15, 60],
-        'jetson':[30,300]
+        	'jetson':[30,300]
 	}
 
 	def __init__(self, constraint_type, efficiency_constraint,accuracy_constraint,
@@ -110,7 +110,7 @@ class EvolutionFinder:
 	def random_sample(self):
 		constraint = self.efficiency_constraint
 		accuracy_constraint = self.accuracy_constraint
-        accuracy_r = 0.3 #accuracy suitable range
+        	accuracy_r = 0.3 #accuracy suitable range
 		while True:
 			sample = self.arch_manager.random_sample()
 			efficiency = self.efficiency_predictor.predict_efficiency(sample)
