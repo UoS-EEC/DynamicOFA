@@ -18,8 +18,8 @@ The optimal search process aims at searching for optimal sub-networks on the par
 This code can be used for different mobile devices. For different device, the accuracy tables and flop tables are the same which are restored in checkpoints repository the specilaized latency lable need to be built based on each device. And the search can be constrainted either by latency and FLOPs, only with different pre-calculated tables. After searching for certain number of sub-networks, evaluate the real-time latency and accuracy on your device. Then build a latency-accuracy scatter to find those points on the pareto curve.
 ### Searching
     For latency based search: 
-        Search without accuracy constraint: python optimal_search/latency/search.py (The latency value is corresponding in evolution_finder.py)
-        Search with accuracy constraint: python optimal_search/latency/search_accu.py (The latency value is corresponding in evolution_finder_accu.py)
+        Search without accuracy constraint: python optimal_search/latency/search.py (The latency value is corresponding to evolution_finder.py)
+        Search with accuracy constraint: python optimal_search/latency/search_accu.py (The latency value is corresponding to evolution_finder_accu.py)
     For flop based search:
         python optimal_search/flop/flop_search.py
     
