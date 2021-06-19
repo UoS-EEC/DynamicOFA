@@ -25,6 +25,7 @@ This code can be used for different mobile devices. For different device, the ac
     
 ### Evaluation
     python optimal_search/latency/evaluation.py & evaluation_cpu.py (For cpu usage please change the devices of all the function in imagenet_eval_helper.py)
-###Examples of optimal search results:
+    
+### Examples of optimal search results:
 ![Fig3](Fig3.png)
     
