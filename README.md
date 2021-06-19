@@ -42,4 +42,4 @@ We are constantly improving the readability and useability of our codebase. Any 
 ## Acknowledgements
 This work was supported in part by the Engineering and Physical Sciences Research Council (EPSRC) under Grant EP/S030069/1.
 
-Thanks for the amazing authors of paper [Once-for-All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/abs/1908.09791) open source their code and model, so we can do our project based on their codebase.
+Thanks for the amazing authors of paper [Once-for-All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/abs/1908.09791) open source their code and models, so we can do our project based on their codebase. Please do checkout their works at [MIT Han lab](https://songhan.mit.edu/)
