@@ -53,7 +53,7 @@ class EvolutionFinder:
 	valid_constraint_range = {
 		'flops': [150, 600],
 		'note10': [15, 60],
-        	'jetson':[30,300]
+        	'jetson':[30,300]  # Latency constraints range
 	}
 
 	def __init__(self, constraint_type, efficiency_constraint,accuracy_constraint,
