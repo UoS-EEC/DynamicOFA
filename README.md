@@ -1,5 +1,5 @@
 # Dynamic-OFA
-Offical repo for paper 'Dynamic-OFA: Runtime DNN Architecture Switching for Performance Scaling on Heterogeneous Embedded Platforms'.
+Official repo for paper 'Dynamic-OFA: Runtime DNN Architecture Switching for Performance Scaling on Heterogeneous Embedded Platforms'.
 
 > [**Dynamic-OFA: Runtime DNN Architecture Switching for Performance Scaling on Heterogeneous Embedded Platforms**](https://arxiv.org/abs/2105.03596),  
 > Wei Lou*, Lei Xun*, Amin Sabet, Jia Bi, Jonathon Hare, Geoff V. Merrett   
@@ -12,12 +12,12 @@ Offical repo for paper 'Dynamic-OFA: Runtime DNN Architecture Switching for Perf
 
 Deep neural networks are typically compressed before deployed on embedded platforms because they are very computational intensive for such platforms. However, the assumed hardware resources at a design time (A&E) may not be available at runtime (BCD & FGH). 
 
-To solve this issue, we purpose Dynmaic-OFA which contains a library of optimal sub-networks for different accuracy-latency trade-offs. At runtime, Dynamic-OFA selects and switches to optimal sub-network architectures to fit time-varying available hardware resources.
+To solve this issue, we purpose Dynamic-OFA which contains a library of optimal sub-networks for different accuracy-latency trade-offs. At runtime, Dynamic-OFA selects and switches to optimal sub-network architectures to fit time-varying available hardware resources.
 
 ### Workflow of Dynamic-OFA
 ![Fig2](Fig2.png)
 
-Dynamic-OFA uses a pre-trained Once-for-all (OFA) network which contain 2*10^19 sub-network architectures as the backbone. Sub-network architectures are sampled from OFA for both CPU and GPU at the offline stage. These architectures have different performance (e.g. latency, accuracy) and are stored in a look-up table to build a dynamic version of OFA without any additional training required. At online stage, we use runtime manager to choose the optimal sub-network that can constantly meet performance requirements when hardware availability changes.
+Dynamic-OFA uses a pre-trained Once-for-all (OFA) network which contains 2*10^19 sub-network architectures as the backbone. Sub-network architectures are sampled from OFA for both CPU and GPU at the offline stage. These architectures have different performance (e.g. latency, accuracy) and are stored in a look-up table to build a dynamic version of OFA without any additional training required. At the online stage, we use runtime manager to choose the optimal sub-network that can constantly meet performance requirements when hardware availability changes.
 
 ### Compare with SOTA
 ![Compare_with_SOTA](Compare_with_SOTA.png)
@@ -31,11 +31,11 @@ The sub-network architectures of Dynamic-OFA can be switched to constantly meet 
 
 ## How to use / evaluate Dynamic-OFA Network
 ### Search for optimal sub-networks
-The optimal search process aims at searching for optimal sub-networks on the pareto front from all the sub-networks of OFA model. 
+The optimal search process aims at searching for optimal sub-networks on the Pareto front from all the sub-networks of OFA model. 
 
-This code can be used for different mobile and embedded devices. For different devices, the accuracy predictor and flop look-up table are the same which are restored in optimal_search/flop&latency/checkpoints repository, however, the specilaized latency look-up lables need to be built based on each device. 
+This code can be used for different mobile and embedded devices. For different devices, the accuracy predictor and flop look-up table are the same which are restored in optimal_search/flop&latency/checkpoints repository, however, the specialized latency look-up tables need to be built based on each device. 
 
-The search can be constrainted either by latency or FLOPs, only with different pre-calculated look-up tables. After searching for certain number of sub-networks, please do re-measure the latency and accuracy on your device since predictor and loop-up table is not 100% accurate, and then use re-measured data to build a latency-accuracy scatter plot to find those points on the pareto front.
+The search can be constrained  either by latency or FLOPs, only with different pre-calculated look-up tables. After searching for a certain number of sub-networks, please do re-measure the latency and accuracy on your device since the predictor and loop-up table is not 100% accurate, and then use re-measured data to build a latency-accuracy scatter plot to find those points on the Pareto front.
 ### Search
     For latency based search: 
         Search without accuracy constraint: python optimal_search/latency/search.py (The latency value is corresponding to evolution_finder.py)
@@ -59,7 +59,7 @@ The search can be constrainted either by latency or FLOPs, only with different p
 TODO
 
 ## Requirement
-1. PyTorch and Torchvision (If you use Nvidia Jetso platform, please intall from [here](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-9-0-now-available/72048))
+1. PyTorch and Torchvision (If you use Nvidia Jetso platform, please install from [here](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-9-0-now-available/72048))
 2. Python 3.6+
 3. ImageNet dataset
 
@@ -76,4 +76,4 @@ This work was supported in part by the Engineering and Physical Sciences Researc
 
 [International Centre for Spatial Computational Learning](https://spatialml.net/)
 
-Thanks for the amazing authors of paper [Once-for-All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/abs/1908.09791) open source their code and models, so we can do our project based on their codebase. Please do checkout their works at [MIT Han lab](https://songhan.mit.edu/).
+Thanks to the amazing authors of the paper [Once-for-All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/abs/1908.09791) open source their code and models, so we can do our project based on their codebase. Please do checkout their works at [MIT Han lab](https://songhan.mit.edu/).
