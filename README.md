@@ -23,6 +23,7 @@ Dynamic-OFA uses a pre-trained Once-for-all (OFA) network which contain 2*10^19 
 ![Compare_with_SOTA](Compare_with_SOTA.png)
 
 ### Runtime manager example
+![Fig7](Fig7.png)
 
 ## How to use / evaluate Dynamic-OFA Network
 ### Search for optimal sub-networks
