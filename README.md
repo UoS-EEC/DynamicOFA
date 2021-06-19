@@ -11,6 +11,8 @@ Offical repo for paper 'Dynamic-OFA: Runtime DNN Architecture Switching for Perf
 
 ## About Dynamic-OFA
 ### Motivation
+![Motivation](Motivation.png)
+
 ### Workflow
 Using pre-trained OFA networks that contain 2*10^19 sub-network architectures as the backbone, sub-network architectures are sampled from OFA for both CPU and GPU at the offline stage. These architectures have different performance (e.g. latency, accuracy) and are stored in a look-up table to build a dynamic version of OFA without any additional training required. Then, at runtime, Dynamic-OFA selects and switches to optimal sub-network architectures to fit time-varying available hardware resources.
 ### Compare with SOTA
