@@ -54,7 +54,7 @@ latency_table = LatencyTable(device=target_hardware)
 print('The Latency lookup table on %s is ready!' % target_hardware)
 
 result_lis = []
-for latency in range(820,1000,10):
+for latency in range(820,1000,10):  ## The latency constraints range
     P = 100  # The size of population in each generation
     N = 500  # How many generations of population to be searched
     r = 0.25  # The ratio of networks that are used as parents for next generation
@@ -78,7 +78,7 @@ for latency in range(820,1000,10):
     print(best_info)
 import pickle
 
-file=open(r"CPUresult_820_1000.pickle","wb")
+file=open(r"CPUresult_820_1000.pickle","wb")  #Save the sub-network configurations into pickle file
 pickle.dump(result_lis,file)
 file.close()
 
