@@ -38,10 +38,9 @@ The search can be constrainted either by latency or FLOPs, only with different p
     Please change the devices of all the function in imagenet_eval_helper.py
     
 ### Examples of optimal search results
-![Fig3](./Fig3.png)
-<img src="Fig3.png" width="50%" height="50%">
-
-
+<p align="center">
+<img src="Fig3.png" width="70%" height="70%">
+</p>
 
 ### Runtime management
 TODO
