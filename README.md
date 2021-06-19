@@ -42,7 +42,13 @@ The search can be constrainted either by latency or FLOPs, only with different p
 
 ## Q&A
 We are constantly improving the readability and useability of our codebase. Any feedback and questions for our paper and code are welcomed, please leave them as GitHub issues.
-    
+
+## Related papers and talks
+### Papers
+[Optimising Resource Management for Embedded Machine Learning](https://arxiv.org/abs/2105.03608)
+### Talks
+
+
 ## Acknowledgements
 This work was supported in part by the Engineering and Physical Sciences Research Council (EPSRC) under Grant EP/S030069/1.
 
