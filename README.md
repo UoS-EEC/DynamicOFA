@@ -42,6 +42,11 @@ The search can be constrainted either by latency or FLOPs, only with different p
 
 ### Runtime management
 
+## Requirement
+1. PyTorch and Torchvision (If you use Nvidia Jetso platform, please intall from [here](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-9-0-now-available/72048))
+2. Python 3.6+
+3. ImageNet dataset
+
 ## Q&A
 We are constantly improving the readability and useability of our codebase. Any feedback and questions for our paper and code are welcomed, please leave them as GitHub issues.
 
