@@ -39,7 +39,7 @@ The search can be constrainted either by latency or FLOPs, only with different p
     
 ### Examples of optimal search results
 <p align="center">
-<img src="Fig3.png" width="70%" height="70%">
+<img src="Fig3.png" width="60%" height="60%">
 </p>
 
 ### Runtime management
