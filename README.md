@@ -28,4 +28,7 @@ This code can be used for different mobile devices. For different device, the ac
     
 ### Examples of optimal search results
 ![Fig3](Fig3.png)
+
+### Q&A
+We are constantly improving the readability and useability of our codebase. Any feedback and questions for our paper and code are welcomed, please leave them as GitHub issues.
     
