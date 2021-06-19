@@ -12,7 +12,7 @@ Offical repo for paper 'Dynamic-OFA: Runtime DNN Architecture Switching for Perf
 
 Deep neural networks are typically compressed before deployed on embedded platforms because they are very computational intensive for such platforms. However, the assumed hardware resources at a design time (A&E) may not be available at runtime (BCD & FGH). 
 
-To solve this issue, we purpose Dynmaic-OFA which contains a library of optimal sub-networks for different accuracy-latency trade-offs. At runtime, selects and switches to optimal sub-network architectures to fit time-varying available hardware resources.
+To solve this issue, we purpose Dynmaic-OFA which contains a library of optimal sub-networks for different accuracy-latency trade-offs. At runtime, Dynamic-OFA selects and switches to optimal sub-network architectures to fit time-varying available hardware resources.
 
 ### Workflow of Dynamic-OFA
 ![Fig2](Fig2.png)
