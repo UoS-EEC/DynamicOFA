@@ -17,13 +17,13 @@ Using pre-trained OFA networks that contain 2*10^19 sub-network architectures as
 ### Runtime manager example
 
 ## How to use / evaluate Dynamic-OFA Network
-### Optimal Search
+### Search for optimal sub-networks
 The optimal search process aims at searching for optimal sub-networks on the pareto front from all the sub-networks of OFA model. 
 
 This code can be used for different mobile and embedded devices. For different devices, the accuracy predictor and flop look-up table are the same which are restored in optimal_search/flop&latency/checkpoints repository, however, the specilaized latency look-up lables need to be built based on each device. 
 
 The search can be constrainted either by latency or FLOPs, only with different pre-calculated look-up tables. After searching for certain number of sub-networks, please do re-measure the latency and accuracy on your device since predictor and loop-up table is not 100% accurate, and then use re-measured data to build a latency-accuracy scatter plot to find those points on the pareto front.
-### Searching
+### Search
     For latency based search: 
         Search without accuracy constraint: python optimal_search/latency/search.py (The latency value is corresponding to evolution_finder.py)
         Search with accuracy constraint: python optimal_search/latency/search_accu.py (The latency value is corresponding to evolution_finder_accu.py)
