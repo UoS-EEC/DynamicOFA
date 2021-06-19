@@ -17,7 +17,8 @@ To solve this issue, we purpose Dynmaic-OFA which contains a library of optimal 
 ### Workflow of Dynamic-OFA
 ![Fig2](Fig2.png)
 
-Using pre-trained OFA networks that contain 2*10^19 sub-network architectures as the backbone, sub-network architectures are sampled from OFA for both CPU and GPU at the offline stage. These architectures have different performance (e.g. latency, accuracy) and are stored in a look-up table to build a dynamic version of OFA without any additional training required.
+Dynamic-OFA uses a pre-trained OFA network that contain 2*10^19 sub-network architectures as the backbone. Sub-network architectures are sampled from OFA for both CPU and GPU at the offline stage. These architectures have different performance (e.g. latency, accuracy) and are stored in a look-up table to build a dynamic version of OFA without any additional training required. At online stage, we use runtime manager to choose the optimal sub-network that can meet constantly meet performance requirements when hardware availability changes.
+
 
 ### Compare with SOTA
 ### Runtime manager example
