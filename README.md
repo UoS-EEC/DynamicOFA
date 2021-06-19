@@ -14,7 +14,7 @@ Using pre-trained OFA networks that contain 2*10^19 sub-network architectures as
 
 ## Usage
 ### Optimal Search
-The optimal search process aims at searching for optimal sub-networks on the pareto curve from all the sub-networks of OFA model. 
+The optimal search process aims at searching for optimal sub-networks on the pareto front from all the sub-networks of OFA model. 
 This code can be used for different mobile devices. For different device, the accuracy tables and flop tables are the same which are restored in checkpoints repository the specilaized latency lable need to be built based on each device. And the search can be constrainted either by latency and FLOPs, only with different pre-calculated tables. After searching for certain number of sub-networks, evaluate the real-time latency and accuracy on your device. Then build a latency-accuracy scatter to find those points on the pareto curve.
 ### Searching
     For latency based search: 
