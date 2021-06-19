@@ -6,6 +6,7 @@ Official repo for paper 'Dynamic-OFA: Runtime DNN Architecture Switching for Per
 > In Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2021  
 > *arXiv preprint ([arXiv 2105.03596](https://arxiv.org/abs/2105.03596))*   
 
+```
 @inproceedings{lou2021dynamic,
   title={Dynamic-OFA: Runtime DNN Architecture Switching for Performance Scaling on Heterogeneous Embedded Platforms},
   author={Lou, Wei and Xun, Lei and Sabet, Amin and Bi, Jia and Hare, Jonathon and Merrett, Geoff V},
@@ -13,6 +14,7 @@ Official repo for paper 'Dynamic-OFA: Runtime DNN Architecture Switching for Per
   pages={3110--3118},
   year={2021}
 }
+```
 
 ## About Dynamic-OFA
 ### Motivation
