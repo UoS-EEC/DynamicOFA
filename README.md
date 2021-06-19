@@ -27,7 +27,7 @@ Dynamic-OFA uses a pre-trained Once-for-all (OFA) network which contain 2*10^19 
 <img src="Fig7.png" width="60%" height="60%">
 </p>
 
-The sub-network architectures of Dynamic-OFA can be switched to constantly meet software performance constraints while fewer computing resources are available. The above figure shows results where GPU computing resources are shared between Dynamic-OFA and a DNN training task. The training tasks starts to run at 2500 ms (donated by 'X'), and Dynamic-OFA becomes slower since fewer GPU cores are available to it. The sub-network architecture is gradually switched from sub-network level 4 to level 2 to meet the latency constraint by temporarily trading 2.6% accuracy.
+The sub-network architectures of Dynamic-OFA can be switched to constantly meet software performance constraints while fewer computing resources are available. The above figure shows results where GPU computing resources are shared between Dynamic-OFA and a DNN training task. The training tasks starts to run at 2500 ms (donated by 'X'), and Dynamic-OFA becomes slower (the green line is separated) since fewer GPU cores are available to it. The sub-network architecture is gradually switched from sub-network level 4 to level 2 to meet the latency constraint by temporarily trading 2.6% accuracy.
 
 ## How to use / evaluate Dynamic-OFA Network
 ### Search for optimal sub-networks
