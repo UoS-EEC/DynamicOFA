@@ -45,9 +45,10 @@ We are constantly improving the readability and useability of our codebase. Any 
 
 ## Related papers and talks
 ### Papers
-[Optimising Resource Management for Embedded Machine Learning](https://arxiv.org/abs/2105.03608)
+[[DATE 2020] Optimising Resource Management for Embedded Machine Learning](https://arxiv.org/abs/2105.03608)
 ### Talks
-
+[[TinyML EMEA] Runtime DNN Performance Scaling through Resource Management on Heterogeneous Embedded Platforms](https://youtu.be/XW8jBooRPdM)
+[[KTN & eFutures Online Webinar] Adapting AI to Available Resource in Mobile/Embedded Devices](https://youtu.be/DnApKW5lk5k)
 
 ## Acknowledgements
 This work was supported in part by the Engineering and Physical Sciences Research Council (EPSRC) under Grant EP/S030069/1.
