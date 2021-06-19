@@ -34,7 +34,7 @@ The search can be constrainted either by latency or FLOPs, only with different p
     Please change the devices of all the function in imagenet_eval_helper.py
     
 ### Examples of optimal search results
-![Fig3](Fig3.png = 250x250)
+![Fig3](Fig3.png)
 
 ## Q&A
 We are constantly improving the readability and useability of our codebase. Any feedback and questions for our paper and code are welcomed, please leave them as GitHub issues.
