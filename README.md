@@ -40,8 +40,6 @@ The search can be constrainted either by latency or FLOPs, only with different p
 ### Examples of optimal search results
 ![Fig3](Fig3.png)
 
-![test](https://github.com/favicon.ico | width=48)
-
 ### Runtime management
 TODO
 
