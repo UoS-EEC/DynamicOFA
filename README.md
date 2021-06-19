@@ -15,7 +15,9 @@ Deep neural networks are typically compressed before deployed on embedded platfo
 To solve this issue, we purpose Dynmaic-OFA which contains a library of optimal sub-networks for different accuracy-latency trade-offs. At runtime, Dynamic-OFA selects and switches to optimal sub-network architectures to fit time-varying available hardware resources.
 
 ### Workflow of Dynamic-OFA
-![Fig2](Fig2.png)
+<p align="center">
+<img src="Fig7.png" width="60%" height="60%">
+</p>
 
 Dynamic-OFA uses a pre-trained Once-for-all (OFA) network which contain 2*10^19 sub-network architectures as the backbone. Sub-network architectures are sampled from OFA for both CPU and GPU at the offline stage. These architectures have different performance (e.g. latency, accuracy) and are stored in a look-up table to build a dynamic version of OFA without any additional training required. At online stage, we use runtime manager to choose the optimal sub-network that can constantly meet performance requirements when hardware availability changes.
 
