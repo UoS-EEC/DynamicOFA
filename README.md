@@ -39,6 +39,9 @@ The search can be constrainted either by latency or FLOPs, only with different p
     
 ### Examples of optimal search results
 ![Fig3](./Fig3.png)
+<img src="Fig3.png" width="50%" height="50%">
+
+
 
 ### Runtime management
 TODO
