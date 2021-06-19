@@ -23,6 +23,7 @@ The search can be constrainted either by latency or FLOPs, only with different p
     For latency based search: 
         Search without accuracy constraint: python optimal_search/latency/search.py (The latency value is corresponding to evolution_finder.py)
         Search with accuracy constraint: python optimal_search/latency/search_accu.py (The latency value is corresponding to evolution_finder_accu.py)
+        
     For flop based search:
         python optimal_search/flop/flop_search.py
     
