@@ -1,10 +1,12 @@
-# Dynamic-OFA [CVPRW talk](https://youtu.be/YV9lJ9YjeGM)
+# Dynamic-OFA
 Official repo for paper 'Dynamic-OFA: Runtime DNN Architecture Switching for Performance Scaling on Heterogeneous Embedded Platforms'.
 
 > [**Dynamic-OFA: Runtime DNN Architecture Switching for Performance Scaling on Heterogeneous Embedded Platforms**](https://arxiv.org/abs/2105.03596),  
 > Wei Lou*, Lei Xun*, Amin Sabet, Jia Bi, Jonathon Hare, Geoff V. Merrett   
 > In Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 2021  
 > *arXiv preprint ([arXiv 2105.03596](https://arxiv.org/abs/2105.03596))*   
+
+Please also check out our [talk](https://youtu.be/YV9lJ9YjeGM) at CVPR ECV workshop 2021.
 
 ## About Dynamic-OFA
 ### Motivation
