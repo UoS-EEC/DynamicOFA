@@ -1,4 +1,4 @@
-# Dynamic-OFA
+# Dynamic-OFA [CVPRW talk](https://youtu.be/YV9lJ9YjeGM)
 Official repo for paper 'Dynamic-OFA: Runtime DNN Architecture Switching for Performance Scaling on Heterogeneous Embedded Platforms'.
 
 > [**Dynamic-OFA: Runtime DNN Architecture Switching for Performance Scaling on Heterogeneous Embedded Platforms**](https://arxiv.org/abs/2105.03596),  
