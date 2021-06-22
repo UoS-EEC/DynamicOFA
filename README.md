@@ -65,7 +65,7 @@ TODO
 2. Python 3.6+
 3. ImageNet dataset
 
-## Q&A
+## Q&A and feedback
 We are constantly improving the readability and useability of our codebase. Any feedback and questions for our paper and code are welcomed, please leave them as GitHub issues.
 
 ## Related papers and talks
