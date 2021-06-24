@@ -66,7 +66,7 @@ TODO
 3. ImageNet dataset
 
 ## Q&A and feedback
-We are constantly improving the readability and useability of our codebase. Any feedback and questions for our paper and code are welcomed, please leave them as GitHub issues.
+We are constantly improving readability and useability of our codebase. Any feedback and questions for our paper and code are welcomed, please leave them as GitHub issues.
 
 ## Related papers and talks
 1. [DATE 2020] Optimising Resource Management for Embedded Machine Learning ([Paper](https://arxiv.org/abs/2105.03608))
