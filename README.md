@@ -8,7 +8,8 @@ Official repo for paper 'Dynamic-OFA: Runtime DNN Architecture Switching for Per
 
 Please also check out our [talk](https://youtu.be/YV9lJ9YjeGM) at CVPR ECV workshop 2021.
 
-NEWS! Incoming tutorial on dynamic-OFA and SW-HW codesign for Arm Research ML Group.
+<span style="color:red">NEWS!</span>
+Incoming tutorial on dynamic-OFA and SW-HW codesign for Arm Research ML Group.
 
 ## About Dynamic-OFA
 ### Motivation
