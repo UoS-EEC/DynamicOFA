@@ -74,8 +74,6 @@ We are constantly improving readability and useability of our codebase. Any feed
 3. [KTN & eFutures Online Webinar] Adapting AI to Available Resource in Mobile/Embedded Devices ([Talk](https://youtu.be/DnApKW5lk5k))
 
 ## Acknowledgements
-This work was supported in part by the Engineering and Physical Sciences Research Council (EPSRC) under Grant EP/S030069/1.
-
-[International Centre for Spatial Computational Learning](https://spatialml.net/)
+This work was supported in part by the Engineering and Physical Sciences Research Council (EPSRC) under Grant EP/S030069/1, and under [International Centre for Spatial Computational Learning](https://spatialml.net/)
 
 Thanks to the amazing authors of the paper [Once-for-All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/abs/1908.09791) open source their code and models, so we can do our project based on their codebase. Please do checkout their works at [MIT Han lab](https://songhan.mit.edu/).
