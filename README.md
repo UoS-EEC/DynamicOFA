@@ -61,7 +61,7 @@ The search can be constrained  either by latency or FLOPs, only with different p
 TODO
 
 ## Requirement
-1. PyTorch and Torchvision (If you use Nvidia Jetso platform, please install from [here](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-9-0-now-available/72048))
+1. PyTorch and Torchvision (If you use Nvidia Jetson platform, please install from [here](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-9-0-now-available/72048))
 2. Python 3.6+
 3. ImageNet dataset
 
