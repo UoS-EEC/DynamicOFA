@@ -58,7 +58,8 @@ The search can be constrained  either by latency or FLOPs, only with different p
 </p>
 
 ### Runtime management
-TODO
+Here we provide a simple runtime demo in /runtime_demo/runtime_adjustment. In this directory, the nets_6.pickle and nets_7.pickle are the selected optimal models. The users can use the run.sh to see the runtime adjustment of different sub-networks under the constraints of latency and accuracy. The running code is "sh run.sh", and users can change the parameters in this file, like initial model $level$, latency constraint $constraint$,accuracy constraint $accuracy$.
+The codes in /runtime_demo/time/test1.py are able to test the latency for each selected sub-networks.
 
 ## Requirement
 1. PyTorch and Torchvision (If you use Nvidia Jetson platform, please install from [here](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-9-0-now-available/72048))
